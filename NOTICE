@@ -1,0 +1,21 @@
+evoloop
+Copyright 2026 Saeed Foroutan
+
+This product includes software developed by Google LLC.
+
+The seed program in `seed/program.py` is taken unmodified from the
+`circle_packing` example of AlphaEvolve on Google Cloud:
+
+    https://github.com/Google-Cloud-AI/alphaevolve-on-googlecloud
+    Copyright 2026 Google LLC
+    Licensed under the Apache License, Version 2.0
+
+Its original copyright header is retained in the file. The scoring semantics
+used by this project — the `evaluate()` and `_circles_overlap()` functions
+outside the EVOLVE-BLOCK markers — are likewise Google's, kept unchanged so
+that scores produced here remain comparable to scores produced upstream.
+
+Everything else in this repository — the program database, prompt sampler,
+generation backends, evaluator, and driver under `alphaevolve/` and
+`run_evolution.py` — is an independent implementation and is not derived from
+Google's client library.
